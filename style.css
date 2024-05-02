@@ -6,12 +6,18 @@
 body {
     margin: 0px;
     background-color: rgb(31, 31, 31);
+    display: block;
+    justify-content: column;
 }
 
 .encabezado {
+    margin-top: -60px;
+    position: fixed;
     padding:10px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    left: 0;
     align-items: center;
     background-image:linear-gradient(to bottom , rgb(28,28,28) , rgb(28,28,28));
     border-bottom: 2px;
@@ -25,12 +31,8 @@ body {
 }
 
 .nav{
-    display:flex;
-    position:fixed;
-    right: 20px;
-    justify-content: space-around ;
+    justify-content:flex-end ;
     align-items: center;
-    margin-right:20px;
 }
 
 .botonesEncabezado {
@@ -54,8 +56,45 @@ body {
 }
 
 .sobreMi{
+    z-index: 10;
+    margin-top: 60px;
     display: flex;
-    position: fixed;
-    max-inline-size: 100%;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
     color: white;
+    justify-content: space-between;
+
+}
+
+.infoYo {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center ;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.infoYo h1 {
+    position: relative;
+    margin: 0px 20px ;
+    font-size: 100px;
+    width: 400px;
+}
+
+.infoYo p {
+    margin-top: 15px;
+    width: 12,1em;
+    font-size: 3ch;
+    color: #fff;
+    border-right: #fff;
+}
+
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500 px;
 }
