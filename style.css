@@ -10,7 +10,15 @@ body {
     justify-content: column;
 }
 
+.separador{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-top: rgb(50, 50, 50);
+}
+
 .encabezado {
+    z-index: 10;
     margin-top: -60px;
     position: fixed;
     padding:10px;
@@ -31,6 +39,7 @@ body {
 }
 
 .nav{
+    position:static;
     justify-content:flex-end ;
     align-items: center;
 }
@@ -56,15 +65,12 @@ body {
 }
 
 .sobreMi{
-    z-index: 10;
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 650px;
     color: white;
-    justify-content: space-between;
-
 }
 
 .infoYo {
@@ -88,13 +94,27 @@ body {
     width: 12,1em;
     font-size: 3ch;
     color: #fff;
-    border-right: #fff;
 }
 
 
-.exp{
+.eduskills{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
-    height: 500 px;
+    height: 650px;
+}
+
+.titedu{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 20px ;
+    font-size: 100px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.eduskills ol {
+    
 }
