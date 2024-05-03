@@ -13,42 +13,80 @@
             <img src="menuicon50.png">
         </div>
         <div class="nav">
-            <button class="botonesEncabezado">SOBRE MI</button>
-            <button class="botonesEncabezado">EDUCACION</button>
-            <button class="botonesEncabezado">EXPERIENCIA</button>
-            <button class="botonesEncabezado">CONTACTO</button>
+            <button class="botonesEncabezado" role="button" onclick="document.getElementById('sobre').scrollIntoView();">SOBRE MI</button>
+            <button class="botonesEncabezado" role="button" onclick="document.getElementById('educa').scrollIntoView();">EDUCACION</button>
+            <button class="botonesEncabezado" role="button" onclick="document.getElementById('expe').scrollIntoView();">EXPERIENCIA</button>
+            <button class="botonesEncabezado" role="button" onclick="document.getElementById('cont').scrollIntoView();">CONTACTO</button>
         </div>    
     </div>
 
+    <div id="sobre"></div>
     <div class="sobreMi">
         <div class="infoYo">
             <h1>Franco Ricardo Monla</h1>
             <p class="infoYo__animado">Programmer in progress... </p>
         </div>
-        <img src="img.jpg" alt="">
+        <img src="yochiquito.jpg" alt="">
     </div>
-
+    <div id="educa"></div>
     <div class="eduskills">
         <p class="titedu">EDUCACION</p>
         <div class="educontenido">
             <ol>
                 <h3 class="edu">Educacion</h3>
-                <li>Gral Ortiz de Ocampo</li>
-                <li>Polivalente de arte</li>
-                <li>Instituto superior Albert Einstein</li>
-                <li>Universidad Tecnologina Nacional</li>
+                <li>Gral Ortiz de Ocampo (Primaria)</li>
+                <li>Polivalente de arte (Secundaria)</li>
+                <li>Instituto superior Albert Einstein (Secundaria)</li>
+                <li>Universidad Tecnologina Nacional (Universidad en curso)</li>
             </ol>
             <ul>
-                <h3 class="edu">Educacion</h3>
-                <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
+                <h3 class="edu">Skills</h3>
+                <li>Photoshop</li>
+                <li>JavaScript</li>
+                <li>Html</li>
+                <li>Css</li>
             </ul>
-            <img src="img.jpg">
+            <img src="pizarron3.png">
 
         </div>
         
     </div>
+    <div id="expe"></div>
+    <div class="experiencia">
 
+        <p class="titedu">EXPERIENCIA</p>
+
+        <div class="expcontenido">
+            <img src="ISAE.jpeg">
+            <img src="UTN_logo.jpg">
+        </div>
+        <div class="laburo">
+            <ul class="trabajos">
+                <h3>ISAE 2021-2023</h3>
+                <li>Mantenimiento en sala de computacion</li>
+                <li>Sonidista</li>
+                <li>Asistente electronico</li>
+                <li>Asistencia en alministracion de redes empresariales</li>
+            </ul>
+            <ul class="trabajos">
+                <h3>UTN 2022-2023</h3>
+                <li>Sonidista</li>
+                <li>Trabajos particulares entre otros</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="contacto">
+        <span style="color: white;">Creado y diseñado por mi</span>
+        <span style="color: white;">Contactame por..</span>  
+
+        <div class="links">
+            <a href="https://www.facebook.com/francomonla/">Facebook</a>
+            <a href="https://www.instagram.com/francomonla/">Instagram</a>
+            <a href="https://github.com/frmonla">Github</a>     
+        </div>
+    </div>
+    <div id="cont"></div>
 </body>
 </html>
